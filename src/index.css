@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  height: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #c6c5d0;
+  border-radius: 2px;
+}
+
+.partner-sector-group {
+  transition:
+    transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+    filter 0.35s ease,
+    opacity 0.35s ease;
+  transform-origin: 320px 320px;
+  cursor: pointer;
+}
+
+.partner-sector-bg {
+  transition:
+    fill 0.3s ease,
+    stroke 0.3s ease;
+}
+
+.partner-svg-wheel:hover .partner-sector-group {
+  opacity: 0.75;
+  filter: saturate(0.9);
+}
+
+.partner-svg-wheel:hover .partner-sector-group:hover {
+  opacity: 1;
+  filter: drop-shadow(0 14px 28px rgba(8, 20, 72, 0.18)) saturate(1.1);
+}
+
+.partner-svg-wheel .partner-sector-group:nth-child(1):hover {
+  transform: translate(0px, -16px);
+}
+
+.partner-svg-wheel .partner-sector-group:nth-child(2):hover {
+  transform: translate(15px, -5px);
+}
+
+.partner-svg-wheel .partner-sector-group:nth-child(3):hover {
+  transform: translate(9px, 13px);
+}
+
+.partner-svg-wheel .partner-sector-group:nth-child(4):hover {
+  transform: translate(-9px, 13px);
+}
+
+.partner-svg-wheel .partner-sector-group:nth-child(5):hover {
+  transform: translate(-15px, -5px);
+}
+
+.partner-svg-wheel .partner-sector-group:hover .partner-sector-bg {
+  fill: #ffffff;
+  stroke: #4059aa;
+  stroke-width: 1.5px;
+}
