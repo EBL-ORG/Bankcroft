@@ -1,3 +1,5 @@
+import logo from "../../logos/logo.png";
+
 const NAV_LINKS = [
   { href: "#commercial-performance", label: "Commercial Results" },
   { href: "#financial-status", label: "Financial Status" },
@@ -26,7 +28,7 @@ export default function Header() {
           <img
             alt="Bancroft & Co. Monogram"
             className="w-10 h-10 object-contain transition-transform group-hover:scale-105 duration-200"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFUkXybpeMnxKCwoQ3t1R3Wwnwt8LnBQzh5DspZjY6TTA26malEaeH6_D_NgOe2gl9zG6o0ML2iSuv_XoWt4gWmbG9g_KgrTHS2Jt9eI3LBGKhnMQ0jBLpXTY22aKf5f_jOy8EPcqt3cRUybddTWy9ouEwy-Xp55nh4b6GzH8vXYbuhTZ7wsGrY3kWsR8vVOC8dPZ7GVHpH5DtijIW_15bDUw7WSHdwHk9zAvbzlqRhzbkrtFAWwWP"
+            src={logo}
           />
           <div className="flex flex-col">
             <span className="font-headline-sm text-headline-sm tracking-tight text-on-surface font-semibold leading-none">

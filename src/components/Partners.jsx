@@ -1,34 +1,40 @@
+import logo1 from "../../logos/1111.png";
+import logo2 from "../../logos/2222.png";
+import logo3 from "../../logos/33333.png";
+import logo4 from "../../logos/44444.png";
+import logo5 from "../../logos/55555.png";
+
 const PARTNER_LOGOS = [
   {
-    href: "https://lh3.googleusercontent.com/aida-public/AB6AXuDmNYF2hJjsH6oUN977MTCywjAmdCa1K1zLZ_MK1fYVgE9MM48bhJqjG2ivav0s3Xtl7Clrgk0QGFQouFQjlXzCspg-3SucT7MGBiYesVKP9z-l8eznKiodvvQiKHTnI-0XTDR1jOUw-KCTzL1z7of-iCav-7yJjsLmusKXGx90a6vJenpFvod__1unbb-87e1RsZRlyOmcuc1zyc3EImdEis1EZMWdShQHECEUeGYeHPKrP16awDpe",
+    href: logo1,
     width: 108,
     height: 108,
     x: 266,
     y: 118,
   },
   {
-    href: "https://lh3.googleusercontent.com/aida-public/AB6AXuAxp3OU0jwWEHOhovJ_j7ZF9xZg8FhwfHB_9nwbId6B2H7wiVlZQdDF5kHJhkiIdWhhUSZ3Ic95aPpIh5jDCoLrlYqHxfHm2DYktfYK1ueW0Saz3DvYpLLczD1WR48dvqaNfWK7DBSMC2Pad4QXE2bKl4W9lPK-0fmAIn4PXNMAsJQ_tSCvVsCSZrpFSrh4YM201sZ2b0vIY0wr8up4eYe1QrsfcD9vjixNB9WZ_245xu8v-mdq2XgW",
+    href: logo2,
     width: 108,
     height: 108,
     x: 384,
     y: 206,
   },
   {
-    href: "https://lh3.googleusercontent.com/aida-public/AB6AXuBIVTPU2tCBUM4v71n-fvTxfWMxkHAREod9vNIjSBynSLkcuP_t-kVlz5booxSuzZa5ChO8GGKfclyTNAVwswoHafVld5yvh_T8Z-T0cvZV6GM8ZtLgACF9izu02PSG_9H098CUsmd_SW6m7YAzk-2kpQa_VG7xYNhGix_FDLozAH-gpq0JqZdSi6jWEP0Tbusv5lhOjwcieP1KLuzI9XuvyakaLFZHMw9r5L3e_wZ503pscpPlDII9",
+    href: logo3,
     width: 106,
     height: 106,
     x: 340,
     y: 372,
   },
   {
-    href: "https://lh3.googleusercontent.com/aida-public/AB6AXuAAMBwEob2xaWLiOtA5qNGDzx5GZ0dp8tfjkdENXUMJRvhDwFfW2dhVauZQV0JiEoC1R-NZjtHN7y_seBO8GikwecIfM37gIGHFCi_1yOtSOSyYxkwWN2R1L0NUUU1uNQRcrHqmMPLJUcgMseFRfB5p2uLGz16vdUjK78mKvT3K4-iILGoWyXaFaHPNsJHEvJCUfegEF5la5mZfhrkRm_9WTQOyMtauYF-KUDrDBvVE84IHVDmxhORq",
+    href: logo4,
     width: 106,
     height: 106,
     x: 194,
     y: 372,
   },
   {
-    href: "https://lh3.googleusercontent.com/aida-public/AB6AXuDLakrmvNVaIZbuzon1E9E8sCALxD1S67zJW9Owyuk_NMoJGUjWU8p20aK2I0sGJaAoAWOUciGMNWO3sMprY0gHekqt25kBQA42EhEFUUAmc96U5lSzjqSHyiPJsypQQ0loCxum3aGk7sgHq3AsiLT5dQ_E4elLlADboye53vMdOoYq20iyui500XTxhzXSDs0UD00PhnbVWmvS72mVuXknWW4spM1b2Q-ruL1IkKi0NRQF_oj-1w4V",
+    href: logo5,
     width: 108,
     height: 108,
     x: 148,
